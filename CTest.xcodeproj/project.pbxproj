@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3A383752506822F00F488AF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A383742506822F00F488AF /* main.c */; };
+		D3A3837D2506825A00F488AF /* SortByAge.c in Sources */ = {isa = PBXBuildFile; fileRef = D3A3837C2506825A00F488AF /* SortByAge.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D3A383712506822F00F488AF /* CTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A383742506822F00F488AF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D3A3837B2506825A00F488AF /* SortByAge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortByAge.h; sourceTree = "<group>"; };
+		D3A3837C2506825A00F488AF /* SortByAge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SortByAge.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D3A383742506822F00F488AF /* main.c */,
+				D3A3837B2506825A00F488AF /* SortByAge.h */,
+				D3A3837C2506825A00F488AF /* SortByAge.c */,
 			);
 			path = CTest;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A3837D2506825A00F488AF /* SortByAge.c in Sources */,
 				D3A383752506822F00F488AF /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +244,7 @@
 		D3A383792506822F00F488AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6M2X75A78;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -248,6 +255,7 @@
 		D3A3837A2506822F00F488AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6M2X75A78;
 				ENABLE_HARDENED_RUNTIME = YES;

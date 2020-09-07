@@ -7,9 +7,11 @@
 //
 
 #include <stdio.h>
+#include "SortByAge.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
+    testSortAge();
     return 0;
 }
